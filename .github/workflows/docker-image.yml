@@ -27,7 +27,7 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t orijp/docker-graphql:0.0.2 .
+        docker build -t orijp/docker-graphql:0.0.3 .
     - name: Push Docker Image
       run: |
         docker push orijp/docker-graphql:0.0.3
