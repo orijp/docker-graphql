@@ -30,7 +30,7 @@ jobs:
         docker build -t orijp/docker-graphql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push orijp/docker-graphql:0.0.2 .
+        docker push orijp/docker-graphql:0.0.3 .
     
 
 
